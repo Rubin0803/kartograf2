@@ -1,0 +1,140 @@
+
+/*GENERAL STYLE*/ 
+body{
+	 margin: 0 auto;
+	 background-image: url("../image/back2.jpg");
+}
+a{
+	text-decoration: none;
+}
+h2{
+	height: 63px;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20px;
+	color: gold;
+}
+.center-all{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+.biglist{
+	background-color: white;
+	max-width: 1130px;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	align-content: center;
+}
+.certificate, .form{
+	background-image: url("../image/back2.jpg");
+}
+section{
+	height: 650px;
+}
+/*=====END GENERAL STYLE=====*/
+/*NAVIGATION*/
+#menu{
+	width: 100%;
+	height: 83px;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 1); 
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+#menu img{
+	margin-right: 300px;
+}
+#menu a{
+	color: gold;
+}
+#menu ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 20px;
+	
+}
+#menu li a:hover{
+	color: #FF8C00;
+}
+.container{
+	width: 1130px;
+	display: inline-flex;
+	justify-content:center;
+    align-items:center;
+}
+/*======END NAVIGATION======*/
+.aboutus p, .works p{
+	margin: 0 auto;
+	padding: 42px 30px 25px 30px;
+}
+.aboutus h3, .works h3{
+	text-align: center;
+}
+.aboutus ul, .works ul{
+	margin: 0 auto;
+	padding-left: 200px;
+}
+/*SECTION about us*/
+/*SECTION works*/
+/*SECTION certificate*/
+.certificate img{
+	margin-top: 50px;
+	margin-left: 250px; 
+}
+/*======END certificate======*/
+/*SECTION contacts*/
+.contacts{
+	display: flex;
+	justify-content: space-around;
+	padding: 42px 30px 25px 30px;
+}
+/*SECTION map*/
+
+/*SECTION form*/
+.level{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+textarea {
+	width: 100%;
+	margin: 0;
+}
+
+input[type="submit"] {
+	margin: auto;
+
+}
+/*======END FORM======*/
+/*FOOTER */
+footer{
+	margin-top: 50px;
+	background-color: rgba(0, 0, 0, 1);
+	color: gold;
+}
+.share {
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.social-vk {
+	background-image: url("../image/vk.png");
+}
+
+.social-fb {
+    background-image: url("../image/fb.jpg");
+}
+/*======END FOOTER======*/
